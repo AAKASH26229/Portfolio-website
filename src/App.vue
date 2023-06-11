@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
   <img alt="Vue logo" src="./assets/logo.png">
   <HelloWorld msg="Welcome to Your Vue.js App"/>
 </template>
@@ -23,4 +23,26 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
-</style>
+</style> -->
+
+// App.vue
+<template>
+  <div id="app">
+    <Navbar />
+    <router-view />
+    <Footer />
+  </div>
+</template>
+
+<script>
+import Navbar from "./components/Navbar.vue";
+import Footer from "./components/Footer.vue";
+
+export default {
+  name: "App",
+  components: {
+    Navbar,
+    Footer,
+  },
+};
+</script>
