@@ -7,6 +7,6 @@
   
   <script>
   export default {
-    name: "Projects",
+    name: "AppProjects",
   };
   </script>

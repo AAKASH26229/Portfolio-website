@@ -19,7 +19,7 @@
   import Contact from "../components/Contact.vue";
   
   export default {
-    name: "Home",
+    name: "AppHome",
     components: {
       Header,
       Projects,

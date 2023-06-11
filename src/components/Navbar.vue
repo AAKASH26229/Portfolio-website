@@ -5,7 +5,7 @@
       <div class="left">Portfolio</div>
             <div class="right">
               <ul>
-                <li><a href="/">Home</a></li>
+                <li><a href="/Home">Home</a></li>
                 <li><a href="/">About</a></li>
                 <li><a href="/">Projects</a></li>
                 <li><a href="/">Contact Me</a></li>
@@ -61,4 +61,7 @@
     font-size: 1.02rem;
   }
 
+.left{
+    font-size: 1.5rem;
+}
 </style>

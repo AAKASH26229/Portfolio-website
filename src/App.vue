@@ -29,6 +29,8 @@ export default {
 <template>
   <div id="app">
     <Navbar />
+    <Header />
+    <Experience/>
     <router-view />
     <Footer />
   </div>
@@ -37,12 +39,16 @@ export default {
 <script>
 import Navbar from "./components/Navbar.vue";
 import Footer from "./components/Footer.vue";
+import Header from "./components/Header.vue";
+import Experience from "./components/Experience.vue";
 
 export default {
   name: "App",
   components: {
     Navbar,
+    Header,
+    Experience,
     Footer,
-  },
+},
 };
 </script>
